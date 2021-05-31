@@ -21,7 +21,8 @@ Halo semuanya, Vue JS sandbox ini bisa menjadi salah satu alat kalian untuk bela
 1. git checkout -b "3.binding-attributes"
 2. Lakukan Binding state imgUrl pada attribute src tag img
 3. Tambahkan class active / disabled pada tag button sesuai dengan state isActive (jika true maka "active" jika false maka "disabled")
-4. referensi: https://vuejs.org/v2/api/#v-bind
+5. referensi: https://vuejs.org/v2/api/#v-bind
+6. referensi 2 : https://vuejs.org/v2/guide/class-and-style.html
 
 ## Conditional
 
