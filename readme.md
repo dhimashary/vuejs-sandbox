@@ -32,19 +32,19 @@ Halo semuanya, Vue JS sandbox ini bisa menjadi salah satu alat kalian untuk bela
 5. Selain itu tampilkan div dengan id 404
 6. referensi: https://vuejs.org/v2/api/#v-if
 
+## Handling User Input - click
+
+1. git checkout -b "5.handling-click"
+2. Buatlah method dengan nama "changePage" di vue instance yang tersedia, method menerima 1 parameter berfungsi untuk mengubah state "currentPage" menjadi isi dari parameter yang dikirim
+3. Manfaatkan v-on click pada button dengan id "register" yang tersedia dan panggil method changePage dengan parameter "loginPage"
+4. referensi : https://vuejs.org/v2/api/#v-on
+
 ## Loops
 
-1. git checkout -b "5.loops"
+1. git checkout -b "6.loops"
 2. Lakukan perulangan pada state todos menggunakan tag li (di dalam tag ul yang tersedia) dengan format `title: status`
 3. jangan lupa tambahkan attribute key untuk setiap tag li yang diiterasi
 4. referensi: https://vuejs.org/v2/api/#v-for
-
-## Handling User Input - click
-
-1. git checkout -b "6.handling-click"
-2. Buatlah method dengan nama "changePage" di vue instance yang tersedia, method menerima 1 parameter berfungsi untuk mengubah state "currentPage" menjadi isi dari parameter yang dikirim
-3. Manfaatkan v-on click pada button dengan id "login" yang tersedia dan panggil method changePage dengan parameter "loginPage"
-4. referensi : https://vuejs.org/v2/api/#v-on
 
 ## Handling User Input - submit
 
