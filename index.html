@@ -7,6 +7,28 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <div id="login-page">
+      Ini halaman login page
+    </div>
+    <div id="register-page">
+      Ini halaman register page
+    </div>
+    <div id="dashboard-page">
+      Ini halaman dashboard
+    </div>
+    <div>
+      404 page not found
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: "#app",
+      data: {
+        currentPage: "login"
+      }
+    })
+  </script>
 </body>
 </html>
