@@ -8,16 +8,19 @@
 </head>
 <body>
   <div id="app">
-    <div id="login-page">
+    <button id="register">
+      Go To Register
+    </button>
+    <div id="login-page" v-if="currentPage === 'login'">
       Ini halaman login page
     </div>
-    <div id="register-page">
+    <div id="register-page" v-else-if="currentPage === 'register'">
       Ini halaman register page
     </div>
-    <div id="dashboard-page">
+    <div id="dashboard-page" v-else-if="currentPage === 'dashboard'">
       Ini halaman dashboard
     </div>
-    <div>
+    <div v-else>
       404 page not found
     </div>
   </div>

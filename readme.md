@@ -36,7 +36,7 @@ Halo semuanya, Vue JS sandbox ini bisa menjadi salah satu alat kalian untuk bela
 
 1. git checkout -b "5.handling-click"
 2. Buatlah method dengan nama "changePage" di vue instance yang tersedia, method menerima 1 parameter berfungsi untuk mengubah state "currentPage" menjadi isi dari parameter yang dikirim
-3. Manfaatkan v-on click pada button dengan id "login" yang tersedia dan panggil method changePage dengan parameter "loginPage"
+3. Manfaatkan v-on click pada button dengan id "register" yang tersedia dan panggil method changePage dengan parameter "loginPage"
 4. referensi : https://vuejs.org/v2/api/#v-on
 
 ## Loops
